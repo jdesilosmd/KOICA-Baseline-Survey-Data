@@ -3,7 +3,8 @@ import pandas as pd
 import plotly.express as px
 
 # Load data
-df = pd.read_excel("C:/Users/ASUS/OneDrive/Documents/Data Science/KOICA/KOICA_SURVEY_4.xlsx")
+url = "https://onedrive.live.com/download?resid=8452D606ADDC0A0F!142073&ithint=file%2cxlsx&authkey=!ALoiLKebKzNyaSk&wdo=2&cid=8452d606addc0a0f"
+df = pd.read_excel(url)
 df2 = df.iloc[:, [3] + list(range(8, 26))]
 
 # Column renaming
