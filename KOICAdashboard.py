@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 # Load data
-url = "https://onedrive.live.com/download?resid=8452D606ADDC0A0F!142073&ithint=file%2cxlsx&authkey=!ALoiLKebKzNyaSk&wdo=2&cid=8452d606addc0a0f"
+url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQL2JLmFxlnDQyRrUq8FzKBnMf5yWtULvcmwwSOLCBmkvBuyTTE2RtcResYiHe3cg/pub?output=xlsx"
 # df = pd.read_excel("C:/Users/ASUS/OneDrive/Documents/Data Science/KOICA/KOICA_SURVEY_4.xlsx")
 df = pd.read_excel(url)
 
