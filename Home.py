@@ -10,7 +10,7 @@ url = "https://onedrive.live.com/download?resid=8452D606ADDC0A0F!142073&ithint=f
 df = pd.read_excel(url)
 
 # Data assignment
-
+'''
 df2 = df.iloc[:, [3, 8, 9, ]+list(range(8, 26))]
 df3 = df.iloc[:, [3]+list(range(26, 74))]
 df4 = df.iloc[:, [3]+list(range(74, 111))]
@@ -24,3 +24,6 @@ df11 = df.iloc[:, [3]+list(range(601, 645))]
 df12 = df.iloc[:, [3]+list(range(645, 746))]
 
 st.write(df)
+'''
+
+st.write('Under Construction')
