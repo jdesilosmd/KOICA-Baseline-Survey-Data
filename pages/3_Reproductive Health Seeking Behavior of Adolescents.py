@@ -205,6 +205,6 @@ expander_info = {
 
 # Create additional expanders for the specified ranges
 create_expanders_from_info(expander_info, filtered_df3, display_type)
-create_expander_and_graph(14, 24, "How did you hear about this facility?", "How did you hear about this facility?", display_type)
-create_expander_and_graph(30, 36, "What subject(s) is/are covered in this material?", "What subject(s) is/are covered in this material?", display_type)
-# create_expander_and_graph(39, 52, "How much did you pay for the following services", "How much did you pay for the following services", display_type)
+create_expander_and_graph(12, 22, "How did you hear about this facility?", "How did you hear about this facility?", display_type)
+create_expander_and_graph(28, 34, "What subject(s) is/are covered in this material?", "What subject(s) is/are covered in this material?", display_type)
+# create_expander_and_graph(37, 49, "How much did you pay for the following services", "How much did you pay for the following services", display_type)
