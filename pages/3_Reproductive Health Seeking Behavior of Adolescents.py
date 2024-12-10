@@ -192,6 +192,7 @@ expander_info = {
     10: {"title": filtered_df3.columns[10]},
     11: {"title": filtered_df3.columns[11]},
     12: {"title": filtered_df3.columns[12]},
+    23: {"title": filtered_df3.columns[23]},
     24: {"title": filtered_df3.columns[24]},
     25: {"title": filtered_df3.columns[25]},
     26: {"title": filtered_df3.columns[26]},
