@@ -87,7 +87,7 @@ elif age_group == "15-19":
     ]
 
 # Display title
-st.title("10. Attitudes, Beliefs, and Values Towards ASRH and Adolescent Pregnancy")
+st.title("3. Reproductive Health Seeking Behavior of Adolescents")
 
 # Function to create expanders from column indices and titles
 def create_expanders_from_info(expander_info, df, display_type):
